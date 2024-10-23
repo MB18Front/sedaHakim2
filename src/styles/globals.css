@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 1150px) {
+    #menu {
+        right: -100%;
+    }
+}
+
+body, * {
+    cursor: url('./cursor.svg'), auto;
+}
